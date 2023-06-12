@@ -103,9 +103,11 @@
 				userVisibleOnly: true,
 				applicationServerKey: 'BDCuwEJaNg8f8UtTnD4yylmCuWsTCxxVoA-VXWExkxtCDC8U4yadV3aEUptbMvid_ctsDevpP-0NH40V-6AfW8k'
 			})
-			console.log(JSON.stringify(push))
+			console.log(JSON.stringify(push));
+			document.getElementById("showpush").innerHTML = JSON.stringify(push);
 		}
 	</script>
+	<div id="showpush"></div>
 </body>
 
 </html>
